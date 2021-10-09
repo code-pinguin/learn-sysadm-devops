@@ -6,7 +6,7 @@ Step 1:  Check if the system support virtualization. if the output of the follow
 
 Step 2: Install KVM and dependencies.
 
- `$ sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils cpu-checker`
+ `$ sudo apt install -y qemu-kvm libvirt-daemon libvirt-daemon-system libvirt-clients bridge-utils cpu-checker`
  
 * qemu package (quick emulator) - allows you to perform hardware virtualization.
 * qemu-kvm package -main KVM package.
