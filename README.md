@@ -58,8 +58,23 @@ $ virsh list
 
 #  Setup Vagrant on Ubuntu 20.04
 
+ TODO: Add setup for Vagrant on local computer
 
+# Setup Jenkins on virtual machine
 
+ TODO:  Add setup for Jenkins
+
+# Setup Jenkins on AWS EC2 Instance
+
+ TODO:  Add setup for Jenkins on AWS EC2 Instance
+ 
+ # Setup Jenkins on Docker
+
+ TODO:  Add setup for Jenkins on Docker
+
+#  Setup for Tomcat on AWS EC2 Instance
+
+ TODO:  Add setup for Tomcat9 on AWS EC2 Instance
 
  
 
