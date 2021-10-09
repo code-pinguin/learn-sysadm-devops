@@ -8,9 +8,8 @@ Step 2: Install KVM and dependencies.
 
  `$ sudo apt install -y qemu-kvm libvirt-daemon libvirt-daemon-system libvirt-clients bridge-utils cpu-checker`
  
-* qemu package (quick emulator) - allows you to perform hardware virtualization.
 * qemu-kvm package -main KVM package.
-* libvirtd-daemon -virtualization daemon.
+* libvirtd-daemon, libvirtd-daemon-system -virtualization daemon.
 * bridge-utils package - create a bridge connection for networking.
 
 Step 3: Start and enable libvirtd
