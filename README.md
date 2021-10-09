@@ -10,8 +10,10 @@ Step 2: Install KVM and dependencies.
  
 * qemu package (quick emulator) - allows you to perform hardware virtualization.
 * qemu-kvm package -main KVM package.
-* libvritd-daemon -virtualization daemon.
+* libvirtd-daemon -virtualization daemon.
 * bridge-utils package - create a bridge connection for networking.
+
+Step 3: Start and enable libvirtd
 
 
   
