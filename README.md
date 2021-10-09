@@ -14,6 +14,34 @@ Step 2: Install KVM and dependencies.
 
 Step 3: Start and enable libvirtd
 
+`$ sudo systemctl start libvirtd && sudo systemctl enable libvirtd`
+
+Step 4: Verify status of libvirtd
+
+````$ sudo systemctl status libvirtd
+libvirtd.service - Virtualization daemon
+     Loaded: loaded (/lib/systemd/system/libvirtd.service; enabled; vendor preset: e>
+     Active: active (running) since Sat 2021-10-09 13:15:16 PST; 7min ago
+TriggeredBy: ● libvirtd-ro.socket
+             ● libvirtd.socket
+             ● libvirtd-admin.socket
+       Docs: man:libvirtd(8)
+             https://libvirt.org
+   Main PID: 11409 (libvirtd)
+      Tasks: 19 (limit: 32768)
+     Memory: 12.1M
+     CGroup: /system.slice/libvirtd.service
+             ├─ 4370 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.>
+             ├─ 4371 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.>
+             └─11409 /usr/sbin/libvirtd
+
+Oct 09 13:15:16 E5470 systemd[1]: Starting Virtualization daemon...
+Oct 09 13:15:16 E5470 systemd[1]: Started Virtualization daemon.
+Oct 09 13:15:16 E5470 dnsmasq[4370]: read /etc/hosts - 7 addresses
+Oct 09 13:15:16 E5470 dnsmasq[4370]: read /var/lib/libvirt/dnsmasq/default.addnhosts>
+Oct 09 13:15:16 E5470 dnsmasq-dhcp[4370]: read /var/lib/libvirt/dnsmasq/default.host>
+````
+
 
   
 
