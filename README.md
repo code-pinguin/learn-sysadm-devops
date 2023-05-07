@@ -49,8 +49,8 @@ Oct 09 13:15:16 E5470 dnsmasq-dhcp[4370]: read /var/lib/libvirt/dnsmasq/default.
 ````
 Step 5: Add Your User to the KVM and Libvirt Group
 
- $ sudo usermod -aG kvm $USER
- $sudo usermod -aG libvirt $USER
+ `$ sudo usermod -aG kvm $USER`
+ `$sudo usermod -aG libvirt $USER`
  
 
 ````
